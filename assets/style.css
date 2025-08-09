@@ -153,14 +153,15 @@ nav {
     font-size: 3.125rem;
     font-family: 'Montserrat', sans-serif;
 }
-
+/*ajuste*/
 .titulo-destaque {
     color: blue;
-    
+    margin-bottom: 0.5em;
 }
 
 .apresentacao__conteudo__texto .p { 
     font-size: 3.1rem;
+    margin-bottom: 0.5em;
 }
 
 .container{
@@ -259,6 +260,19 @@ p{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /*formulário contato*/
+.contact-title {
+    color: blue;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.contact-subtitle {
+    color: #4b86b4;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
 .formulario {
     padding: 4em 0;
     text-align: center;
