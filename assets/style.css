@@ -7,6 +7,7 @@
 }
 
 body {
+    
     color: blue;
     height: 100vh;
     width: 100%;
@@ -20,18 +21,31 @@ body {
     align-items: center;
     overflow-x: hidden; 
 }
+header {
+    margin: 0 auto;
+    padding: 1px;
+    height: 60px;
+    width: 100%;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
 
 ul{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     list-style-type:none;
-    align-items: center;
+    
     padding: 16px;
 }
 
 .navegacao {
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    width: 100%;
 }
 
 nav {
@@ -56,9 +70,12 @@ nav {
 }
 
 .navegacao__menu {
-    margin-right: auto;
-    align-items: center;
+    width: auto;
+    margin: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .navegacao__menu-lista {
@@ -82,6 +99,7 @@ nav {
     justify-content: space-between;
 }
 .container-slider{
+    margin-top: 90px;
     display:flex;
     width: 100%;
     min-height: 100vh;
@@ -178,8 +196,9 @@ nav {
     margin: 0 auto;
     text-align: center;
     font-size: 3.1rem;
-    color: blue
+    color: blue;
 }
+/*atenç*/
 .apresentacao__tema{
     
     width: 250px;
@@ -208,6 +227,16 @@ nav {
     font-size: 1rem;
 }
 
+.apresentacao__destaque-info{
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    color: blue;
+    font-size: 1rem;
+}
+
 p{
     margin:10px;
     text-indent: 0%;
@@ -215,6 +244,12 @@ p{
     padding: -2px;
     word-spacing: -1px;
 
+}
+.apresentacao-info{
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2rem;
 }
 
 .apresentacao__conteudo__texto .lista {
@@ -262,6 +297,7 @@ p{
 /*formulário contato*/
 .contact-title {
     color: blue;
+    margin-top: 90px;
     font-size: 2.2rem;
     text-align: center;
     margin-bottom: 0.5em;
@@ -282,7 +318,7 @@ p{
 .formulario__titulo {
     font-size: 50px;
     font-weight: 400;
-    color: gray;
+    color: blue;
     padding: 1em 0;
 }
 
