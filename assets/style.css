@@ -139,6 +139,7 @@ nav {
 }
 
 .apresentacao__conteudo {
+    
     width: 615px;
     display: flex;
     flex-direction: column;
